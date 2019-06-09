@@ -9,3 +9,7 @@
 [2019. 06. 05] AWS 쿠버네티스 판교 소모임 (판교, 넥슨 코리아) [정리 내용 링크](https://github.com/alicek106/attended-meetup/blob/master/memo/20190605)
 
 [2019. 06. 09] DevOps Meetup 19 (한국 마이크로소프트) [정리 내용 링크](https://github.com/alicek106/attended-meetup/blob/master/memo/20190609)
+- Opencensus with Prometheus and Kubernetes (김진웅 님)
+- DevOps의 인문학적 접근 (유근준 님)
+- DevOps Art 1년 부채부터 10년 부채까지 (송주영 님)
+- 최소한의 비용과 시간을 갈아넣어 만든 Kubernetes CI/CD (독고혁 님)
