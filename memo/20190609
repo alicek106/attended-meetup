@@ -1,0 +1,30 @@
+GKE Onprem
+Cross Cloud? Azure (Devops) -> AWS 로.
+
+Code instrumentation (코드가 잘 되는지) -> metric, tracing
+
+span 당 3.3KB (MSA 구조에서)
+
+--
+
+Culture? 사람, 프로세스, 팀구성, 서비스 성격, 도구, 일정 등을 고민
+사람: 리더, 인원/프로세스:배용/팀구성:조직과 서비스성격/ 도구.. 속도 편의성 등등..
+
+Automation? account (AWS, linux) sec 등등.
+
+releng : release engineering
+account를 나누는 이유? 모든 환경을 같은 프로세스와 같은 주기를 두기 위해서.
+마이그레이션 이유? 이전에 레거시가 어떻게 만들어졌는지 재정립하는 이유도 있음
+App, Language? 
+CI / CD : Jenkins를 선호. Jenkins with CodeBuild? 특성 : Jenkins 와 통합 쉬움.
+모니터링은 SaaS 전성시대 요즘 다 SaaS로 넘어갈듯. 뉴렐릭, 데이터독 엄청 좋다고 함.
+
+Jenkins는 두개를 만들고, 하나는 베이스이미지 프로비저닝 (커널파라미터 등), 하나는 앱 프로비저닝.
+
+Measurement : APM이나 모니터링. 기록남기고. 
+기술은 넷플릭스 탑.
+삼성 팀:170개 msa.
+
+카오스 엔지니어링. 넷플릭스에서는 현재라고 말하고 있음. 한국에서는 하는곳 아무도 없는듯.
+그렘린 : Failure as a Service.
+Silver Bullet은 없다. k8s도 모든것을 다 해결해주지는 않는다.
