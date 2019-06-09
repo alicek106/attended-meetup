@@ -1,11 +1,11 @@
-# Áö±Ý±îÁö Âü¼®ÇØ º¸¾Ò´ø ¸ðÀÓ ¶Ç´Â ÄÁÆÛ·±½º Á¤¸®
+# ì§€ê¸ˆê¹Œì§€ ì°¸ì„í•´ ë³´ì•˜ë˜ ëª¨ìž„ ë˜ëŠ” ì»¨í¼ëŸ°ìŠ¤ ì •ë¦¬
 
-Âü¼®Çß´ø ¸ðÀÓÀ» Á¤¸®ÇÏ´Â ¸®Æ÷ÁöÅÍ¸®ÀÔ´Ï´Ù. ¹ßÇ¥¸¦ µéÀ¸¸ç ¸Þ¸ðÇß´ø ³»¿ëµéµµ ÇÔ²² ¿Ã¸³´Ï´Ù.
+ì°¸ì„í–ˆë˜ ëª¨ìž„ì„ ì •ë¦¬í•˜ëŠ” ë¦¬í¬ì§€í„°ë¦¬ìž…ë‹ˆë‹¤. ë°œí‘œë¥¼ ë“¤ìœ¼ë©° ë©”ëª¨í–ˆë˜ ë‚´ìš©ë“¤ë„ í•¨ê»˜ ì˜¬ë¦½ë‹ˆë‹¤.
 
 ## 2019. 06
 
-[2019. 06. 04] Kubernetes Korea Group ¸ð´ÏÅÍ¸µ ¼Ò¸ðÀÓ 2Â÷ (°­³², ¸Þ°¡Á¸) [Á¤¸® ³»¿ë ¸µÅ©]
+[2019. 06. 04] Kubernetes Korea Group ëª¨ë‹ˆí„°ë§ ì†Œëª¨ìž„ 2ì°¨ (ê°•ë‚¨, ë©”ê°€ì¡´) [ì •ë¦¬ ë‚´ìš© ë§í¬](https://github.com/alicek106/attended-meetup/blob/master/memo/20190604)
 
-[2019. 06. 05] AWS Äí¹ö³×Æ¼½º ÆÇ±³ ¼Ò¸ðÀÓ (ÆÇ±³, ³Ø½¼ ÄÚ¸®¾Æ) [Á¤¸® ³»¿ë ¸µÅ©]
+[2019. 06. 05] AWS ì¿ ë²„ë„¤í‹°ìŠ¤ íŒêµ ì†Œëª¨ìž„ (íŒêµ, ë„¥ìŠ¨ ì½”ë¦¬ì•„) [ì •ë¦¬ ë‚´ìš© ë§í¬](https://github.com/alicek106/attended-meetup/blob/master/memo/20190605)
 
-[2019. 06. 09] DevOps Meetup 19 (ÇÑ±¹ ¸¶ÀÌÅ©·Î¼ÒÇÁÆ®) [Á¤¸® ³»¿ë ¸µÅ©]
+[2019. 06. 09] DevOps Meetup 19 (í•œêµ­ ë§ˆì´í¬ë¡œì†Œí”„íŠ¸) [ì •ë¦¬ ë‚´ìš© ë§í¬](https://github.com/alicek106/attended-meetup/blob/master/memo/20190609)
