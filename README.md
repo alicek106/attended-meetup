@@ -13,3 +13,6 @@
 - DevOps의 인문학적 접근 (유근준 님)
 - DevOps Art 1년 부채부터 10년 부채까지 (송주영 님)
 - 최소한의 비용과 시간을 갈아넣어 만든 Kubernetes CI/CD (독고혁 님)
+
+[2019. 06. 19] AWSKRUG 컨테이너 소모임 (강남, 메가존) [정리 내용 링크](https://github.com/alicek106/attended-meetup/blob/master/memo/20190619)
+- Deep dive into Kubernetes networking by Sreenivas Makam [Youtube](https://www.youtube.com/watch?v=NUt9VVG_gac)
