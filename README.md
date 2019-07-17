@@ -19,4 +19,7 @@
 
 ## 2019. 07
 [2019. 07. 10] 하시코프 밋업 3회 (당근마켓) [정리 내용 링크](https://github.com/alicek106/attended-meetup/blob/master/memo/20190710)
+[2019. 07. 17] AWS KRUG 컨테이너 소모임 [정리 내용 링크](https://github.com/alicek106/attended-meetup/blob/master/memo/20190717)
+- Taking Docker to Production: What You Need to Know and Decide [Youtube](https://www.youtube.com/watch?v=6jT83lT6TU8)
+
 [2019. 07. 18 ~ 19] Open Infrastructure & Cloud Native Days Korea 2019 (스태프로 참가 예정)
