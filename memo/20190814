@@ -1,0 +1,41 @@
+Kubernetes scheduler deep dive
+
+카카오뱅크 김동진 님.
+
+쿠버네티스 스케줄러가 정확이 어떤 건지, 어떻게 확장할 수 있을 것인지.
+-> API 서버한테 Watch API를 날린다. nodeName이 비어있는 상태인지 확인. predicate, priority, round-robin.
+Queue에 하나씩 데이터가 들어오면 하나씩 까오는 형식, API가 Push를 가져오는 것이 아님.
+PodInformaer가 Queue에 데이터를 계속해서 넣는다.
+
+1. ScheduleOne을 계속 돌면서 queue에 데이터가 있는지 없는지를 검사
+2. Informer 레이어로부터 데이터를 Queue에 받아온다. 
+
+1.13부터 CSI 드라이버들이 GA되면서 CSP에 종속적인 것들이 deprecated
+
+findNodeThatFit, 한번에 16개의 워커 노드가 고루틴으로 알고리즘을 병렬적으로 처리.  (성능이 최적인 부분인 듯.? 히스토리를 보면 계속 바뀐다고 함.)
+percentageOfNodesToScore. --> Minimum은 100개. 중간에 그만큼 찾았으면 cancel. 
+
+preferred -> 
+score 값이 가장 높은 노드를 찾고, 그러면 라운드로빈. 인 것 같음.
+
+Feature gateway 를 통해서 default에 추가할 수 있음. max score된 노드의 갯수를 최소한으로 줄이기 위해서, CPU / Memory 둘 중 하나를 만족하는 경우에
+추가 점수를 준다. 
+
+내부적인 스케줄링에 캐시를 둔다. 실질적으로 포드가 배포 가능한지를 확인. race 상태를 막기 위해서. (중복 할당 문제임.) 이미 할당 했는데
+또 요청이 들어와서 스케줄러가 또 할당할 경우 할당 실패 가능. (assume 이라고 함.)
+
+( 스케줄링이 Fail 나면 어떻게 할 것인가? 다시 스케줄링? 에 대해서.)
+
+-- 확장하는 방법 : extender, framework. 
+
+커스텀 스케줄링은 충돌이 발생하지 않을까, 를 고려해야 함. 근데 커스텀 리소스 (GPU) 등에 대한 것이라면 뭐 가능성이 없는 것은 아닌데, 그래도 충돌 걱정
+
+extender : webhook. predicate나 priority를 다시 추가할 수 있도록 별도의 webhook 서버를 등록하는 방식. 로직을 추가할 수 있음. (가장 유력한 후보)
+-> extension 포인트가 제한적이다. 결국은 디폴트 알고리즘을 태우고 난 뒤에 결과를 다시 재 가공하는 방식. latency?. 로직에서 fail이 났을 때 abort 도 고려를 해야함.
+그리고 기타 메타데이터를 받아오려면 그것도 결국 API 서버에 접근해야 함.
+
+-> framework? SIG임. 인터페이스를 제공할테니 이걸 직접 채워서 빌드해라, 라는 느낌.
+
+
+------
+아이스크림에듀 우여명님 발표는 이전과 동일한 발표자료.
