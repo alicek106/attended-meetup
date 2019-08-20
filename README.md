@@ -30,3 +30,5 @@
 [2019. 08. 08] AWS KRUG 데이터 사이언트 소모임 [정리 내용 링크](https://github.com/alicek106/attended-meetup/blob/master/memo/20190808)
 
 [2019. 08. 14] AWS KRUG 판교 소모임 [정리 내용 링크](https://github.com/alicek106/attended-meetup/blob/master/memo/20190814)
+
+[2019. 08. 20] Kubernetes kr-dev 밋업 [정리 내용 링크](https://github.com/alicek106/attended-meetup/blob/master/memo/20190820)
