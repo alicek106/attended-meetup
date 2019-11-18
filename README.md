@@ -34,3 +34,11 @@
 [2019. 08. 20] Kubernetes kr-dev 밋업 [정리 내용 링크](https://github.com/alicek106/attended-meetup/blob/master/memo/20190820)
 
 [2019. 09. 03] Kubernetes kr-dev 밋업 발표 (발표자 : 용찬호) [발표자료 링크](https://docs.google.com/presentation/d/1-wRRZPJBf9xrOV_QfJqtp5OErV5hfgSdACdZIaCEIGU/edit#slide=id.p1)
+
+---
+```
+...9~10월, 노트북 장애로 데이터 유실..
+```
+
+## 2019. 11
+[2019. 11. 18 ~ 22] KubeCon 2019 & EnvoyCon
