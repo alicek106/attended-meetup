@@ -42,3 +42,8 @@
 
 ## 2019. 11
 [2019. 11. 18 ~ 22] KubeCon 2019 & EnvoyCon
+
+## 2019. 12
+[2019. 12. 10] AWSKRUG 컨테이너 소모임: Windows Container + Kubernetes [발표자료 링크](https://www.facebook.com/groups/awskrug/permalink/2190046027764076/)
+
+[2019. 12. 12] AWS re:invent recap [정리 내용 링크](https://github.com/alicek106/attended-meetup/blob/master/memo/20191212)
